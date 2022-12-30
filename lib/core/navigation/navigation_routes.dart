@@ -6,6 +6,6 @@ class NavigationRoutes {
   final _navigationScreenFactory = NavigationScreenFactory();
 
   Map<String, WidgetBuilder> get routes => <String, WidgetBuilder>{
-        Routes.main: (_) => _navigationScreenFactory.makeMainScreenWidget(),
+        Routes.main: (_) => _navigationScreenFactory.makeMainTabsScreen(),
       };
 }

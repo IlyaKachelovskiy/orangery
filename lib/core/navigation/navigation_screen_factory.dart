@@ -1,5 +1,5 @@
-import 'package:orangery/presentation/widgets/main_screen_widget/main_screen_widget.dart';
+import 'package:orangery/presentation/widgets/main_tabs/main_tabs_screen.dart';
 
 class NavigationScreenFactory {
-  makeMainScreenWidget() => const MainScreenWidget();
+  makeMainTabsScreen() => const MainTabsScreen();
 }
