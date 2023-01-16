@@ -19,5 +19,5 @@ class MainTabsScreenViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  int selectedIndex = 0;
+  int selectedIndex = 1;
 }
