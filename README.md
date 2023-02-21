@@ -4,4 +4,4 @@
 
 ## Getting Started
 
-Clean architecture + mvvm
+Clean architecture + bloc
