@@ -16,20 +16,12 @@ class MainTabsScreen extends StatelessWidget {
               bottomNavigationBar: BottomNavigationBar(
                 items: const <BottomNavigationBarItem>[
                   BottomNavigationBarItem(
-                    icon: Icon(Icons.home_outlined),
-                    label: "Главная",
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(Icons.category_outlined),
-                    label: "Категории",
-                  ),
-                  BottomNavigationBarItem(
                     icon: Icon(Icons.calendar_month_outlined),
-                    label: "Календарь",
+                    label: "Создать",
                   ),
                   BottomNavigationBarItem(
                     icon: Icon(Icons.person_outline),
-                    label: "Профиль",
+                    label: "Склад",
                   ),
                 ],
                 onTap: viewModel.onItemTapped,
