@@ -11,6 +11,11 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
+  # для навигации
+  auto_route: ^5.0.4
+  auto_route_generator: 5.0.3
+  build_runner: ^2.3.3
+
   # MVVM
   stacked: 3.0.1
 
